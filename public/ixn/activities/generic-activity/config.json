@@ -29,13 +29,13 @@
    "configurationArguments": {
        "applicationExtensionKey": "{{KEY}}",
        "save": {
-           "url": "https://{{ENDPOINT_NAME}}.herokuapp.com/save"
+           "url": "https://fax.makanahealth.io/save"
        },
        "publish": {
-           "url": "https://{{ENDPOINT_NAME}}.herokuapp.com/publish"
+           "url": "https://fax.makanahealth.io/publish"
        },
        "validate": {
-           "url": "https://{{ENDPOINT_NAME}}.herokuapp.com/validate"
+           "url": "https://fax.makanahealth.io/validate"
        }
    },
     "wizardSteps": "{{WIZARD_STEPS}}",   
