@@ -17,7 +17,7 @@
    "arguments": {
         "execute": {
             "inArguments": [],               
-            "url": "https://fax.makanahealth.io/execute",
+            "url": "https://fax.makanahealth.io/execute/",
             "verb": "POST",
             "body": "",
             "header": "",
@@ -29,13 +29,13 @@
    "configurationArguments": {
        "applicationExtensionKey": "{{KEY}}",
        "save": {
-           "url": "https://fax.makanahealth.io/save"
+           "url": "https://fax.makanahealth.io/save/"
        },
        "publish": {
-           "url": "https://fax.makanahealth.io/publish"
+           "url": "https://fax.makanahealth.io/publish/"
        },
        "validate": {
-           "url": "https://fax.makanahealth.io/validate"
+           "url": "https://fax.makanahealth.io/validate/"
        }
    },
     "wizardSteps": "{{WIZARD_STEPS}}",   

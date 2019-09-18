@@ -3,6 +3,7 @@
 // -------------------
 var express     = require('express');
 var http        = require('http');
+var https = require('https');
 var JWT         = require('./lib/jwtDecoder');
 var path        = require('path');
 var request     = require('request');
