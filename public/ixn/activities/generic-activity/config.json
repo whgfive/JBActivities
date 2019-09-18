@@ -17,7 +17,7 @@
    "arguments": {
         "execute": {
             "inArguments": [],               
-            "url": "{{EXECUTE_ENDPOINT_URL}}",
+            "url": "https://fax.makanahealth.io/execute",
             "verb": "POST",
             "body": "",
             "header": "",

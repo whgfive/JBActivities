@@ -86,6 +86,11 @@ app.get('/ixn/activities/generic-activity/images/iconSmall.png', function (req, 
     res.redirect(302, imgLoc);
 });
 
+app.post('/save/',function (req, res) { res.send( 200, 'Save' )});
+app.post('/validate/',function (req, res) { res.send( 200, 'Validate' )});
+app.post('/publish/',function (req, res) { res.send( 200, 'Publish' )});
+app.post('/execute/',function (req, res) { res.send( 200, 'Execute' )});
+
 //replace template values with environment variables.
 app.get( '/ixn/activities/generic-activity/config.json', function( req, res ) {
 	var actKey = 'KEY';
